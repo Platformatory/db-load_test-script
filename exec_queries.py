@@ -3,7 +3,7 @@ import psycopg2
 import time
 
 # Set up the database connection
-conn = psycopg2.connect(database="postgres", user="ash_post_admin", password="A4TRdlv74OLyhdxX3fVz", host="post-db-1.cmid249r0ev2.ap-northeast-1.rds.amazonaws.com", port="5432")
+conn = psycopg2.connect(database="<db>", user="<user>", password="<password>", host="<host>", port="<portno>")
 cur = conn.cursor()
 
 # Set up the command line arguments
